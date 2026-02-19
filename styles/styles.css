@@ -16,9 +16,17 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
-  --overlay-background-color:lightgrey;
+  --link-color: #00b2a9;
+  --link-hover-color: #009a92;
+  --overlay-background-color: lightgrey;
+
+  /* SMBC brand colors */
+  --navy: #0a1e3d;
+  --navy-light: #122c52;
+  --teal: #00b2a9;
+  --teal-dark: #009a92;
+  --magenta: #a7195c;
+  --accent-light: #e8f7f6;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -263,4 +271,27 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* dark section style */
+main .section.dark {
+  background-color: var(--navy);
+  color: white;
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.dark a:any-link {
+  color: var(--teal);
+}
+
+main .section.dark a.button:any-link {
+  background-color: var(--teal);
+  color: white;
+}
+
+main .section.dark a.button.secondary:any-link {
+  background-color: transparent;
+  border-color: white;
+  color: white;
 }

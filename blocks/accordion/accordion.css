@@ -4,7 +4,8 @@
 
 /* stylelint-disable-next-line no-descending-specificity */
 .accordion details + details {
-  margin-top: 24px;
+  margin-top: 0;
+  border-top: none;
 }
 
 .accordion details p {
@@ -13,16 +14,17 @@
 
 .accordion details summary {
   position: relative;
-  padding: 0 16px;
-  padding-right: 46px;
+  padding: 16px 46px 16px 16px;
   cursor: pointer;
   list-style: none;
   overflow: auto;
   transition: background-color 0.2s;
+  font-weight: 600;
 }
 
 .accordion details[open] summary {
   background-color: var(--light-color);
+  color: var(--teal);
 }
 
 .accordion details summary:focus,
@@ -40,8 +42,8 @@
   top: 50%;
   right: 18px;
   transform: translateY(-50%) rotate(135deg);
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border: 2px solid;
   border-width: 2px 2px 0 0;
   transition: transform 0.2s;

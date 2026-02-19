@@ -1,0 +1,35 @@
+.social-feed .social-feed-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.social-feed .social-feed-header p:first-child {
+  color: var(--teal);
+  font-size: var(--body-font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.social-feed .social-feed-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.social-feed .social-feed-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+
+.social-feed .social-feed-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.social-feed .social-feed-card > div:last-child {
+  padding: 12px;
+  font-size: var(--body-font-size-xs);
+}
