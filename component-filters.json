@@ -13,6 +13,7 @@
       "cards",
       "carousel",
       "columns",
+      "cta-banner",
       "embed",
       "fragment",
       "form",
@@ -20,6 +21,8 @@
       "image",
       "quote",
       "search",
+      "social-feed",
+      "stats",
       "tabs",
       "table",
       "text",
@@ -31,6 +34,30 @@
     "id": "accordion",
     "components": [
       "accordion-item"
+    ]
+  },
+  {
+    "id": "cards-icon",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-news",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-selector",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-tile",
+    "components": [
+      "card"
     ]
   },
   {
@@ -46,6 +73,36 @@
     ]
   },
   {
+    "id": "columns-contact",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-promo",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
@@ -58,6 +115,18 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "social-feed",
+    "components": [
+      "social-feed-item"
+    ]
+  },
+  {
+    "id": "stats",
+    "components": [
+      "stats-item"
     ]
   },
   {
