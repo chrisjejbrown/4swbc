@@ -273,6 +273,62 @@ main .section.highlight {
   padding: 40px 0;
 }
 
+/* two-column section layout */
+@media (width >= 900px) {
+  main .section.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 32px;
+    align-items: start;
+  }
+
+  main .section.two-column > div {
+    max-width: unset;
+    padding: 0;
+    margin: 0;
+  }
+
+  main .section.two-column > .default-content-wrapper:first-child {
+    grid-column: 1 / -1;
+  }
+
+  main .section.two-column > .default-content-wrapper:not(:first-child) picture {
+    display: block;
+    height: 100%;
+  }
+
+  main .section.two-column > .default-content-wrapper:not(:first-child) img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+/* stats section: text left, stats right */
+@media (width >= 900px) {
+  main .section.stats-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 32px;
+    align-items: center;
+  }
+
+  main .section.stats-container > div {
+    max-width: unset;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 /* dark section style */
 main .section.dark {
   background-color: var(--navy);

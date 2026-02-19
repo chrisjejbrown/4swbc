@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/adobe/aem-block-collection#readme",
   "devDependencies": {
+    "@adobe/helix-md2jcr": "^1.2.15",
     "@babel/core": "7.23.7",
     "@babel/eslint-parser": "7.28.0",
     "chai": "5.0.0",

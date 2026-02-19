@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.swbc.com",
+  "path": "index",
+  "timestamp": "2026-02-18T19:51:47.410Z",
+  "title": "SWBC | Home",
+  "template": "homepage",
+  "blocks": [
+    "hero-banner",
+    "cards-selector",
+    "cards-tile",
+    "columns-promo",
+    "cards-icon",
+    "cards-news",
+    "columns-contact"
+  ]
+}

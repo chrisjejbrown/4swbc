@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-contact",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-02-18T17:53:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.swbc.com",
+    "originPage": "SWBC Homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "contact-info",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "2 text columns with headings and CTAs",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["contact information sections", "support/help sections", "dual-CTA layouts"],
+    "notSuitableFor": ["image + text layouts", "promotional content"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-18T17:53:00.000Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-18T17:53:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.swbc.com",
+    "originPage": "SWBC Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "navy",
+    "density": "compact",
+    "purpose": "category-links",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "2x4 grid of icon + label links",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["career category grids", "icon-based navigation grids", "linked category listings"],
+    "notSuitableFor": ["image cards", "content-heavy cards", "article listings"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-18T17:53:00.000Z"
+  }
+}

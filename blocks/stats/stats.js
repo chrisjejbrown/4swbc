@@ -1,12 +1,10 @@
 export default function decorate(block) {
   const rows = [...block.children];
-  const introRow = rows[0];
-  if (introRow) introRow.className = 'stats-intro';
 
   const statsGrid = document.createElement('div');
   statsGrid.className = 'stats-grid';
 
-  rows.slice(1).forEach((row, idx) => {
+  rows.forEach((row, idx) => {
     const statItem = document.createElement('div');
     statItem.className = 'stats-item';
     if (idx === 0) statItem.classList.add('stats-item-accent');

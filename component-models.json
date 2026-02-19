@@ -256,25 +256,6 @@
     ]
   },
   {
-    "id": "cta-banner",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "content",
-        "value": "",
-        "label": "Content",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "emailLabel",
-        "value": "",
-        "label": "Email Label"
-      }
-    ]
-  },
-  {
     "id": "carousel-item",
     "fields": [
       {
@@ -354,6 +335,25 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "cta-banner",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "content",
+        "value": "",
+        "label": "Content",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "emailLabel",
+        "value": "",
+        "label": "Email Label"
       }
     ]
   },
@@ -495,6 +495,35 @@
     ]
   },
   {
+    "id": "search",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "index",
+        "label": "Index"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Options",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Search Type",
+            "children": [
+              {
+                "name": "Minimal",
+                "value": "minimal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "social-feed-item",
     "fields": [
       {
@@ -529,35 +558,6 @@
         "name": "label",
         "value": "",
         "label": "Label"
-      }
-    ]
-  },
-  {
-    "id": "search",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "index",
-        "label": "Index"
-      },
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "value": "",
-        "label": "Options",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Search Type",
-            "children": [
-              {
-                "name": "Minimal",
-                "value": "minimal"
-              }
-            ]
-          }
-        ]
       }
     ]
   },

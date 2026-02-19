@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="name">swbcnew-content</entry>
+    <entry key="version">1.0.0</entry>
+    <entry key="group">swbc</entry>
+    <entry key="description">SMBC New Homepage Content Package</entry>
+    <entry key="createdBy">md2jcr</entry>
+    <entry key="packageType">content</entry>
+</properties>

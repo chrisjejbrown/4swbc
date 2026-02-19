@@ -1,15 +1,3 @@
-.social-feed .social-feed-header {
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.social-feed .social-feed-header p:first-child {
-  color: var(--teal);
-  font-size: var(--body-font-size-xs);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
 .social-feed .social-feed-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

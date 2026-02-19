@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-tile",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-18T17:53:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.swbc.com",
+    "originPage": "SWBC Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "teal",
+    "density": "compact",
+    "purpose": "service-tiles",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "2x3 grid of image tiles with overlay text",
+    "buttonCount": 0,
+    "imageCount": 6
+  },
+  "reuseGuidance": {
+    "suitableFor": ["service/product tile grids", "image-heavy category displays", "visual navigation grids"],
+    "notSuitableFor": ["text-heavy cards", "news article listings", "icon-based grids"]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-18T17:53:00.000Z"
+  }
+}

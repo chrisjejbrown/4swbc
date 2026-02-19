@@ -1,0 +1,146 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.swbc.com"
+      ],
+      "description": "Main landing page with hero banner, discover/services selector, featured services cards, blueprint section, careers listing, latest news, and contact support",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            "div.hero.home-hero"
+          ]
+        },
+        {
+          "name": "cards-selector",
+          "instances": [
+            "#oscar"
+          ]
+        },
+        {
+          "name": "cards-tile",
+          "instances": [
+            "div.featuredServicesGrid"
+          ]
+        },
+        {
+          "name": "columns-promo",
+          "instances": [
+            "#contentNameIsSWBCBlueprint_HomePage"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            "div.careers-wrap"
+          ]
+        },
+        {
+          "name": "cards-news",
+          "instances": [
+            "div.edn_1365_article_list_wrapper"
+          ]
+        },
+        {
+          "name": "columns-contact",
+          "instances": [
+            "div.simple-block-wrap"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "div.heroMain.sectionMain",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Discover How We Can Help",
+          "selector": "div.DnnModule-SWBC-Oscar",
+          "style": null,
+          "blocks": [
+            "cards-selector"
+          ],
+          "defaultContent": [
+            "h2.title:has(> i)"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Featured Services",
+          "selector": "div.slant-wrapper.slant-pattern.slant-body-teal",
+          "style": "teal",
+          "blocks": [
+            "cards-tile"
+          ],
+          "defaultContent": [
+            "div.featuredServices > div.col-md-3"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Our Blueprint",
+          "selector": "div.contentNameIsSWBCBlueprint_HomePage",
+          "style": null,
+          "blocks": [
+            "columns-promo"
+          ],
+          "defaultContent": [
+            "h2.title:has(> i)"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Career Opportunities",
+          "selector": "div.slant-wrapper.slant-pattern.slant-body-navy",
+          "style": "navy",
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            "h2.title:has(> small)",
+            "a.btn.btn-primary"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Latest News",
+          "selector": "div.DnnModule-EasyDNNnews",
+          "style": null,
+          "blocks": [
+            "cards-news"
+          ],
+          "defaultContent": [
+            "h2.title:has(> i)"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Contact Support",
+          "selector": "div.slant-wrapper.slant-body-white:has(.simple-block-wrap)",
+          "style": null,
+          "blocks": [
+            "columns-contact"
+          ],
+          "defaultContent": []
+        }
+      ]
+    },
+    {
+      "name": "service-page",
+      "urls": [
+        "https://www.swbc.com/collateral-protection-insurance-programs"
+      ],
+      "description": "Product/service detail page with hero, intro content with video, feature cards, CTA callouts, hybrid solution details, ancillary products, testimonials carousel, resources grid, related services, and consultation form",
+      "blocks": []
+    }
+  ]
+}
